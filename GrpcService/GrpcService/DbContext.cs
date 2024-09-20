@@ -1,10 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using GrpcService.Models;
 
-namespace GrpcService
+namespace GrpcService;
+
+public class DiscountDbContext(DbContextOptions<DiscountDbContext> options) : DbContext(options)
 {
-	public class DiscountDbContext(DbContextOptions<DiscountDbContext> options) : DbContext(options)
-	{
-		public DbSet<DiscountCode> DiscountCodes { get; set; }
-	}
+	public DbSet<DiscountCode> DiscountCodes { get; set; }
 }

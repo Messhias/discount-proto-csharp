@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrpcConsoleApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+add73f82f5a8cc10c573a905a0004c2b25fdd446")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2ebb72a67df939cda72a34ae45181266a07d379")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrpcConsoleApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrpcConsoleApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

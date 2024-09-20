@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcService. Protos";
+
+service DiscountService {
+  rpc GenerateDiscount (GenerateRequest) returns (GenerateResponse);
+  rpc UseDiscount (UseRequest) returns (UseResponse);
+}
+
+message GenerateRequest {
+  uint32 count = 1;
+  uint32 length = 2;
+}
+
+message GenerateResponse {
+  repeated string codes = 1;
+}
+
+message UseRequest {
+  string code = 1;
+}
+
+message UseResponse {
+  bool success = 1;
+}

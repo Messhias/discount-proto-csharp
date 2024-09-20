@@ -1,0 +1,84 @@
+# Ignore build outputs
+bin/
+obj/
+out/
+
+# Ignore Rider IDE files
+.idea/
+.idea_modules/
+*.sln.iml
+.idea/workspace.xml
+
+# Ignore Visual Studio and VS Code specific files (if used)
+.vscode/
+.vs/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Rider-related files
+.idea/
+.idea_modules/
+
+# Ignore lock files
+project.lock.json
+project.fragment.lock.json
+
+# Ignore NuGet packages and related files
+*.nupkg
+*.snupkg
+.nuget/packages/
+.nuget/
+
+# Ignore build results
+bin/
+obj/
+*.dll
+*.exe
+*.exe.config
+*.pdb
+*.cache
+*.mdb
+
+# Ignore test results
+TestResults/
+coverage/
+*.trx
+*.coverage
+*.testlog
+
+# Ignore SQLite database files (se aplicável)
+*.db
+*.db-journal
+*.sqlite
+
+# Ignore dependencies restored
+packages/
+
+# Ignore generated gRPC files
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Ignore application settings (mantendo os principais)
+appsettings.Development.json
+appsettings.Production.json
+secrets.json
+
+# Ignore EF migrations (se não quiser ignorar, pode remover essa linha)
+Migrations/
+
+# Ignore gRPC generated code (apenas arquivos temporários)
+obj/**/*.cs
+GeneratedGrpcCode/
